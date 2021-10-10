@@ -19,11 +19,12 @@ img {border-color: rgb(0, 0, 0);
         width: 500px;
 	    margin: auto;}
 .menu li{
-        list-style-type: none;
-	    display: inline;}
+        float: right;
+        width: 70px;
+        list-style-type: none;}
 .logotip {
         width: 100px;
-        margin: 0 0 0 25px;
+        margin: 25px;
         float: left;}
 .product {
 	    display: flex;}

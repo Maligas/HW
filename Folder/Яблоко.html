@@ -3,15 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <title>Яблоко</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
     </head>
     <body>
-        <a href="Главная.html">Главная</a>
+        <div class="header">
+            <img class="logotip" src="img/логотип.jpg">
+            <ul class="menu">
+                <li><a href="Главная.html">Главная</a></li>
+                <li><a href="Каталог.html">Каталог</a></li>
+                <li><a href="О_нас.html">О нас</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="product">
+                <img width="500px" height="500px" src="img/яблоко.jpg">
+                <p>Вкусный сочный фрукт со вкусом и запахом яблока.</p>
+            </div>
+        </div>
         <br>
-        <a href="О_нас.html">О нас</a>
-        <br>
-        <a href="Каталог.html">Каталог</a>
-        <br>
-        <img width="500px" height="500px" src="img/яблоко.jpg">
+        <form action="button">
+			<input type="button" value="купить">
+		</form>
         <p>
             Сочный плод яблони, который употребляется в пищу в свежем виде, служит сырьём в кулинарии и для приготовления напитков. 
             Наибольшее распространение получила яблоня домашняя, реже выращивают яблоню сливолистную. 
@@ -20,7 +33,7 @@
             На сегодняшний день существует множество сортов этого вида яблони, произрастающих в различных климатических условиях. 
             По времени созревания отличают летние, осенние и зимние сорта, более поздние сорта отличаются хорошей стойкостью. 
         </p>
-        <div style="position:absolute; bottom:15px;">Наш телефон:+7***-**-**</div> 
-        <div style="position:absolute; bottom:0px;">Наша почта:*****-***-***@yandex.ru</div>
+        <div class="footer">Наш телефон:+7***-**-** <br>
+            Наша почта:*****-***-***@yandex.ru</div> 
     </body>
 </html>

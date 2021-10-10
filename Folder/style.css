@@ -1,0 +1,39 @@
+a { text-decoration: none;
+    color: black; }
+img {border-color: rgb(0, 0, 0);
+    border-style: solid;}
+.footer {
+       position: absolute; bottom: 0; 
+       padding: 5px;
+       height: 35px; 
+       background: rgb(0, 153, 8); 
+       color: black; 
+       width: 100%;}
+.header {
+        height: 150px;
+        padding: 5px; 
+        background: rgb(242, 255, 60); 
+        color: black; 
+        width: 100%;}
+.container {
+        width: 500px;
+	    margin: auto;}
+.menu li{
+        float: right;
+        width: 70px;
+        list-style-type: none;}
+.logotip {
+        width: 100px;
+        margin: 25px;
+        float: left;}
+.product {
+	    display: flex;}
+.product_img {
+        border: solid;
+        border-color: black;
+        float: left;
+        width:250px;
+        height:250px;}
+.catalog {
+        display: inline-block;
+        width: 350px;}

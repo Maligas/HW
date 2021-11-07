@@ -1,0 +1,17 @@
+CREATE TABLE fruit (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL UNIQUE,
+    price INTEGER
+);
+
+INSERT INTO fruit (name, price)
+VALUES ('Яблоко', 100);
+ 
+INSERT INTO fruit (name, price)
+VALUES ('Банан', 110);
+ 
+INSERT INTO fruit (name, price)
+VALUES ('Слива', 120);
+
+
+SELECT * FROM fruit;
